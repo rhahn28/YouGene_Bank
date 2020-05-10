@@ -1,4 +1,7 @@
-![image](QClogo.png)
+
+![image](safety.PNG)
+
+![image](YG.PNG)
 
 # YouGene Bank Documentation
 
@@ -53,7 +56,7 @@ First, export your genesis configuration into a yougenebank.json file by
 
 2. You should a success message:
 
-![image](Capture3.NG)
+![image](Capture3.PNG)
 
 3. Repeat the same for a node2.
 
