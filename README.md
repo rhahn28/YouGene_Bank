@@ -26,7 +26,7 @@ First, export your genesis configuration into a yougenebank.json file by
 
 2. Hit 2 and choose Export genesis configuration and continue with default (current) directory by hitting enter again
 
-![image](rhan28/yougenebank/Capture1.png)
+![image](Capture1.PNG)
 
 3. This will export several yournetworkname.json files -- you only need the first one without aleth, parity, or harmony suffixes. 
 
