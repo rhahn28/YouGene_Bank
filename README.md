@@ -36,7 +36,7 @@ First, export your genesis configuration into a yougenebank.json file by
 
 5. You will be asked for a password. Go ahead and create one.  You should see a succcess message similar to this one:
 
-![image](Capture2.png)
+![image](Capture2.PNG)
 
 6. Write down the information and save it.
 
@@ -53,7 +53,7 @@ First, export your genesis configuration into a yougenebank.json file by
 
 2. You should a success message:
 
-![image](Capture3.png)
+![image](Capture3.NG)
 
 3. Repeat the same for a node2.
 
@@ -70,7 +70,7 @@ Time to start your blockchain network by opening a terminal window (Git Bash in 
 
 2.  The --mine flag tells the node to mine new blocks. The --minerthreads flag tells geth how many CPU threads, or "workers" to use during mining. Since our difficulty is low, we can set it to 1. You should see the node Committing new mining work:
 
-![image](Capture4.png)
+![image](Capture4.PNG)
 
 3.  Copy this command into your notes and label it Start Node 1. Now you will launch the second node and configure it to let us talk to the chain via RPC.  Scroll up in the terminal window where node1 is running, and copy the entire enode:// address (including the last @address:port segment) of the first node located in the Started P2P Networking line. We will need this address to tell the second node where to find the first node. Open another terminal window and navigate to the same directory as before and run the command below to new port 30304.
 
@@ -101,24 +101,24 @@ We will be using local port http://127.0.0.1:8545 for MyCrypto. Node 1 and Node 
 
 Get the private key from the account with which you used to prefund your testchain.  Unlock your wallet using your mnemonic phrase and choose the address you want to inspect. Select the ETH address you use to pre-fund your chain, and in the "Select" dropdown list, choose "Wallet Info. Click on the eye icon next to the "Private Key" field, and copy and paste the private key of the wallet.
 
-![image](Capture5.png)
+![image](Capture5.PNG)
 
 Then, Click "Add Custom Node", then add the custom network information that you set in the genesis. Make sure that you scroll down to choose Custom in the "Network" column to reveal more options like Chain ID:
 
-![image](Capture6.png)
+![image](Capture6.PNG)
 
 Looks like we're filthy rich! This is the balance that was pre-funded for this account in the genesis configuration; however, these millions of ETH tokens are just for testing purposes.
 
-![image](Capture7.png)
+![image](Capture7.PNG)
 
 Now we're going to send a transaction to ourselves to test it out. Follow the next steps. Copy the pre-fund address into the "To Address" field, then fill in an arbitrary amount of ETH:
 
-![image](Capture8.png)
+![image](Capture8.PNG)
 
 Click the Check TX Status when the green message pops up, confirm the logout:
 
-![image](Capture9.png)
+![image](Capture9.PNG)
 
 You should see the transaction go from Pending to Successful in around the same block time you set in the genesis. You can click the Check TX Status button to update the status.
 
-![image](Capture10.png)
+![image](Capture10.PNG)
