@@ -1,7 +1,7 @@
 
-![image](safety.PNG)
+![image](safety.jpg)
 
-![image](YG.PNG)
+![image](YG.png)
 
 # YouGene Bank Documentation
 
